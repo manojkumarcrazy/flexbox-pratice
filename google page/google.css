@@ -1,0 +1,40 @@
+.head{
+    display:flex;
+    align-items:end ;
+    height: 100vh;
+    justify-content: center;
+
+    
+}
+
+.box{
+    /* border-top: 20px dotted yellow; */
+    margin: 50pt;
+    padding: 20p;
+    background-origin: padding-box;
+    border: 5px solid yellow;
+    height: 50%;
+    width: 50%;
+    color:blueviolet ;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    border-radius: 20pt;
+text-align: center;
+    align-content: center;
+}
+
+.head .box:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.box:active{
+    color: brown;
+/* text-replace:20px; */
+}
+
+.box:visited{
+    color: rgb(197, 121, 21);
+}
+
+
